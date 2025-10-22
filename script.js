@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const block = document.querySelector('.div1');
 
     if (!input || !button || !block) {
-        console.log('Не найдены необходимые элементы:');
+        console.log('Не найдены asdfaнеобходимые элементы:');
         if (!input) console.log('- textInput');
         if (!button) console.log('- addButton');
         if (!block) console.log('- .div1');
